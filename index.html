@@ -1,8 +1,9 @@
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Weather App Search</title>
+        <title>My App</title>
         <link rel="stylesheet" href="src/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,85 +12,41 @@
             rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     </head>
+
     <body>
         <div class="weather-app">
             <header>
+
                 <form class="search-form " id="search-form">
                     <input type="search" placeholder="Enter the city..." required class="search-form-input"
                         id="search-form-input" />
                     <input type="submit" value="Search" class="search-form-button" />
                 </form>
             </header>
-   <main>
-  <div class="weather-app-data">
-   <div>
-    <h1 class="weather-app-city" id="weather-app-city"></h1>
-      <p class="weather-app-details">
-       <span id="time"></span>, <span id="description">scattered clouds</span>
-         <br />
-          Humidity:<strong id="humidity"></strong>, Wind:<strong id="speed"></strong>
-           </p>
-        </div>
-  <div class="weather-app-temperature-container">
-    <div id="icon"></div>
+            <main>
+                <div class="weather-app-data">
+                    <div>
+                        <h1 class="weather-app-city" id="weather-app-city"></h1>
+                        <p class="weather-app-details">
+                            <span id="time"></span>, <span id="description">scattered clouds</span>
+                            <br />
+                            Humidity:<strong id="humidity"></strong>, Wind:<strong id="speed"></strong>
+                        </p>
+                    </div>
+                    <div class="weather-app-temperature-container">
+                        <div id="icon"></div>
 
-   <div class="weather-app-temperature" id="temperature"></div>
-    <div class="weather-app-unit">℃</div>
-      </div>
-    </div>
-      <div class="weather-forcast">
-      <div class="weather-forcast-day">
-      <div class="weather-forcast-date">Mon</div>
-      <div class="weather-forcast-icon">⛅ </div>
-      <div class="weather-forcast-temperatures">
-      <div class="weather-forcast-temperature">
-      <strong>11°</strong>
-   </div>
-  <div class="weather-forcast-temperature">12°</div>
-   </div>
-  
-</div>
-  <div class="weather-forcast-day">
-  <div class="weather-forcast-date">Tue</div>
-  <div class="weather-forcast-icon">⛅ </div>
-    <div class="weather-forcast-temperatures">
-   <div class="weather-forcast-temperature">
-    <strong>15°</strong>
-    </div>
-    <div class="weather-forcast-temperature">7°</div>
-    </div>
-</div>
-<div class="weather-forcast-day">
-    <div class="weather-forcast-date">Wed</div>
-    <div class="weather-forcast-icon">⛅ </div>
-   <div class="weather-forcast-temperatures">
-   <div class="weather-forcast-temperature">
- <strong>25°</strong>
-  </div>
-    <div class="weather-forcast-temperature">9°</div>
-      </div>
- </div>
-  <div class="weather-forcast-day">
-  <div class="weather-forcast-date">Thurs</div>
-  <div class="weather-forcast-icon">⛅ </div>
-  <div class="weather-forcast-temperatures">
-  <div class="weather-forcast-temperature">
-  <strong>26°</strong>
-  </div>
-   <div class="weather-forcast-temperature">4°</div>
-  </div>
+                        <div class="weather-app-temperature" id="temperature"></div>
+                        <div class="weather-app-unit">°C</div>
+                    </div>
+                </div>
+                <div class="weather-forcast" id="weather-forcast">
 
-    </div>
-<div class="weather-forcast-day">
-<div class="weather-forcast-date">Fri</div>
-<div class="weather-forcast-icon">⛅ </div>
-  <div class="weather-forcast-temperatures">
-<div class="weather-forcast-temperature"> <strong>30°</strong> </div>
- <div class="weather-forcast-temperature">12°</div>
- </div>
- </div>
-</div>
-</main>
+                </div>
+
+
+            </main>
+
     <footer>
     <p>
        This project was coded by
@@ -100,4 +57,5 @@
     </footer>
     </div>
   <script src="src/index.js"></script>
+    </body>
 </html>
