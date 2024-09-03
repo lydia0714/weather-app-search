@@ -1,9 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
-
-    <head>
+  <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My App</title>
+        <title>My weather app search</title>
         <link rel="stylesheet" href="src/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,35 +17,32 @@
         <div class="weather-app">
             <header>
 
-                <form class="search-form " id="search-form">
-                    <input type="search" placeholder="Enter the city..." required class="search-form-input"
-                        id="search-form-input" />
-                    <input type="submit" value="Search" class="search-form-button" />
-                </form>
-            </header>
-            <main>
-                <div class="weather-app-data">
-                    <div>
-                        <h1 class="weather-app-city" id="weather-app-city"></h1>
-                        <p class="weather-app-details">
-                            <span id="time"></span>, <span id="description">scattered clouds</span>
-                            <br />
-                            Humidity:<strong id="humidity"></strong>, Wind:<strong id="speed"></strong>
-                        </p>
-                    </div>
-                    <div class="weather-app-temperature-container">
-                        <div id="icon"></div>
+      <form class="search-form " id="search-form">
+      <input type="search" placeholder="Enter the city..." required class="search-form-input"
+   id="search-form-input" />
+  <input type="submit" value="Search" class="search-form-button" />
+  </form>
+  </header>
+    <main>
+   <div class="weather-app-data">
+    <div>
+   <h1 class="weather-app-city" id="weather-app-city"></h1>
+  <p class="weather-app-details">
+  <span id="time"></span>, <span id="description">scattered clouds</span>
+  <br />
+  Humidity:<strong id="humidity"></strong>, Wind:<strong id="speed"></strong>
+    </p>
+ </div>
+  <div class="weather-app-temperature-container">
+  <div id="icon"></div>
 
-                        <div class="weather-app-temperature" id="temperature"></div>
-                        <div class="weather-app-unit">°C</div>
-                    </div>
-                </div>
-                <div class="weather-forcast" id="weather-forcast">
-
-                </div>
-
-
-            </main>
+    <div class="weather-app-temperature" id="temperature"></div>
+   <div class="weather-app-unit">°C</div>
+    </div>
+    </div>
+    <div class="weather-forcast" id="weather-forcast">
+    </div>
+  </main>
 
     <footer>
     <p>
